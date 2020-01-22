@@ -10,11 +10,6 @@ const Header = () => {
                 <Link to="/" className="item">All Streams</Link>
                 <GoogleAuth />
             </div>
-            <Link to="/" className="item">Streamy</Link>
-            <Link to="/stream/new">New</Link>
-            <Link to="/stream/edit">Edit</Link>
-            <Link to="/stream/delete">Delete</Link>
-            <Link to="/stream/show">Show</Link>
         </div>
     );
 }
